@@ -1,0 +1,5 @@
+package tablx
+
+import (
+	"fmt"
+)
