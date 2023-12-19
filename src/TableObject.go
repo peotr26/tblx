@@ -1,4 +1,4 @@
-package tablx
+package tblx
 
 import (
 	"fmt"
@@ -123,19 +123,4 @@ func (c Cell) Write(input string) {
 // Method that appends data in the cell.
 func (c Cell) Append(input string) {
 	c.data += input
-}
-
-////////////////
-// Functions //
-//////////////
-
-// Returns the maximum value in an array of integer.
-func max(x []int) int {
-	maxi := x[0]
-	for _, e := range x {
-		if e > maxi {
-			maxi = e
-		}
-	}
-	return maxi
 }
