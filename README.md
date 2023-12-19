@@ -1,4 +1,4 @@
-# tblx
+# tblx[^1]
 CLI CSV handler.
 
-Pronounced /tblks/.
+[^1]: Pronounced /tblks/.
