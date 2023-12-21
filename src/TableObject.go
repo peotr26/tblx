@@ -52,6 +52,15 @@ func (c Column) Depth() int {
 	return len(c.data)
 }
 
+// Method that returns the maximum width of the column.
+func (c Column) MaxWidth() int {
+	array_width := []int
+	for _, e := range c.data {
+		array_width = append(array_width, e.Length())
+	}
+	return max(array_width)
+}
+
 // Method that prints out all the cells of the column.
 func (c Column) PrintCol() {
 	for _, e := range c.data {
