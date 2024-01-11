@@ -1,9 +1,7 @@
-package tablx
+package tblx
 
 import (
-	"encoding/csv";
-	"os";
-	"fmt"
+	
 )
 
 func main() {
